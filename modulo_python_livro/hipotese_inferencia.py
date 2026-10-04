@@ -5,7 +5,7 @@ __all__ = ["normal_approximation_to_binomial",
            "estimated_parameters", "a_b_test_statistic", 
            "beta_pdf", "beta_two_sided_bound"]
 
-from probabilidade import normal_cdf
+from .probabilidade import normal_cdf
 import math
 from typing import Tuple
 from scipy.stats import beta as beta_dist
