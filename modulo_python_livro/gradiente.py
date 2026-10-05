@@ -1,5 +1,5 @@
 __all__ = ["difference_quotient", "partial_difference_quotient", "estimate_gradient", "gradient_step",
-           "linear_gradient", "partial_difference_quotient", "estimate_gradient", "minibatches", "", "", ""]
+           "linear_gradient", "partial_difference_quotient", "estimate_gradient", "minibatches"]
 
 from .algebra_linear import distance, vector_add, scalar_multiply, vector_mean
 from typing import Callable, TypeVar, List, Iterator

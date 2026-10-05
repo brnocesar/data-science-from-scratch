@@ -23,7 +23,7 @@ def vector_sum(vectors):
 def scalar_multiply(c, v):
     return [c * v_i for v_i in v]
 
-# media de uma lista de vetores
+# vetor medio: tira media das componentes em cada dimensao
 def vector_mean(vectors):
     n = len(vectors)
     return scalar_multiply(1/n, vector_sum(vectors))
